@@ -18,7 +18,7 @@ int main()
         int ik = i;
         int jk = j;
         int lk = l;
-
+        
         i = max((47 * ik) % 25, min((47 * jk) % 30, (47 * lk) % 30)) - k % 15;
         i = max((47 * ik) % 25, min((47 * jk) % 30, (47 * lk) % 30)) - k % 15;
         j = min(max((47 * ik) % 25, (47 * jk) % 25), 47 * lk % 30) + k % 5;
